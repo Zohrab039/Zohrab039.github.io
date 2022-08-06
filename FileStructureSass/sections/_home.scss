@@ -7,7 +7,7 @@
             .logo{
                 font-size: 30px;
                 color: $nav-bar-color;
-                margin-top: 20px;
+                margin-top: 25px;
                 h1{
                     &::selection{
                         color: $nav-bar-hover-color;
@@ -20,7 +20,8 @@
                 ul{
                     list-style: none;
                     li{
-                        
+                        font-size: 13px;
+                        margin: 15px 5px;
                         a{
                             text-decoration: none;
                             padding-left: 40px;

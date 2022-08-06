@@ -158,7 +158,7 @@ table {
 #home #nav-bar .nav-bar-items .logo {
   font-size: 30px;
   color: #EEEEEE;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 #home #nav-bar .nav-bar-items .logo h1::-moz-selection {
   color: #c49b66;
@@ -173,6 +173,10 @@ table {
 }
 #home #nav-bar .nav-bar-items .nav-items ul {
   list-style: none;
+}
+#home #nav-bar .nav-bar-items .nav-items ul li {
+  font-size: 13px;
+  margin: 15px 5px;
 }
 #home #nav-bar .nav-bar-items .nav-items ul li a {
   text-decoration: none;
