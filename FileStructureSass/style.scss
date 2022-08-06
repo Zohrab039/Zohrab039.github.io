@@ -1,1 +1,9 @@
-@import 'root/root';
+@import 'root/variables';
+@import 'root/reset';
+@import 'root/class';
+@import 'sections/home';
+@import 'sections/about';
+@import 'sections/services';
+@import 'sections/portfolio';
+@import 'sections/blog';
+@import 'sections/contact';
