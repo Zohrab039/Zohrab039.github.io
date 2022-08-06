@@ -1,0 +1,44 @@
+#home{
+    background: $nav-bar-bc;
+    width: 100%;
+    height: 695px;
+    #nav-bar{
+        .nav-bar-items{
+            .logo{
+                font-size: 30px;
+                color: $nav-bar-color;
+                margin-top: 20px;
+                h1{
+                    &::selection{
+                        color: $nav-bar-hover-color;
+                        background: $nav-bar-bc;
+                    }
+                }
+            }
+            .nav-items{
+                margin-top: 20px;
+                ul{
+                    list-style: none;
+                    li{
+                        
+                        a{
+                            text-decoration: none;
+                            padding-left: 40px;
+                            color: $nav-bar-color;
+                            transition: all .3s ease;
+                            &:hover{
+                                color: $nav-bar-hover-color;
+                                transition: all .3s ease;
+                            }
+                            &:active{
+                                color: $nav-bar-hover-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
