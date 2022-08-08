@@ -187,11 +187,20 @@ table {
 .btn-dark {
   background: transparent;
   border: 1px solid #eee;
+  transition: all 0.4s ease;
+}
+.btn-dark:hover {
+  border: 1px solid #c49b66;
 }
 
 .btn-light {
   background: #EEEEEE;
   color: #c49b66;
+  overflow: hidden;
+  border: 1px solid #EEEEEE;
+}
+.btn-light:hover {
+  border: 1px solid #EEEEEE;
 }
 
 #home {
@@ -252,4 +261,12 @@ table {
 }
 #home .welcome .buttons {
   margin-top: 60px;
+}
+#home .welcome .buttons a {
+  transition: all 0.4s ease;
+}
+#home .welcome .buttons a:hover {
+  color: #EEEEEE;
+  background: #c49b66;
+  transition: all 0.4s ease;
 }

@@ -56,6 +56,14 @@
         }
         .buttons{
             margin-top: 60px;
+            a{
+                transition: all .4s ease;
+                &:hover{
+                    color: $nav-bar-color;
+                    background: $nav-bar-hover-color;
+                    transition: all .4s ease;
+                }
+            }
         }
     }
 }
