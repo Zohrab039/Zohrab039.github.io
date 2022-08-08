@@ -270,3 +270,26 @@ table {
   background: #c49b66;
   transition: all 0.4s ease;
 }
+
+#about {
+  background: #000000;
+  padding: 100px 0px;
+}
+#about .about-items {
+  margin-left: 120px;
+}
+#about .about-items .about-item1 .skills {
+  padding: 100px 0px;
+}
+#about .about-items .about-item1 .skills .about-title {
+  margin-bottom: 80px;
+  position: relative;
+}
+#about .about-items .about-item1 .skills .about-title h4 {
+  font-size: 70px;
+  font-weight: 800;
+  font-family: inherit;
+  letter-spacing: 2px;
+  color: #222;
+  line-height: 1.2;
+}

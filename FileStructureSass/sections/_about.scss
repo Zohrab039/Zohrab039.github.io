@@ -1,5 +1,24 @@
 #about{
-    .about-me{
-        
+    background: $nav-bar-bc;
+    padding: 100px 0px;
+    .about-items{
+        margin-left: 120px;
+        .about-item1{
+            .skills{
+                padding: 100px 0px;
+                .about-title{
+                    margin-bottom: 80px;
+                    position: relative;
+                    h4{
+                        font-size: 70px;
+                        font-weight: 800;
+                        font-family: inherit;
+                        letter-spacing: 2px;
+                        color: #222;
+                        line-height: 1.2;
+                    }
+                }
+            }
+        }
     }
 }
