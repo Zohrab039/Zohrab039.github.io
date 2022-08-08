@@ -166,6 +166,14 @@ table {
   color: #c49b66;
 }
 
+.is-hidden {
+  display: none;
+}
+
+.is-visible {
+  display: inline-block;
+}
+
 #home {
   background: #000000;
   width: 100%;
