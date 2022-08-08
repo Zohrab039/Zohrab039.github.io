@@ -203,6 +203,10 @@ table {
   border: 1px solid #EEEEEE;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
 #home {
   background: #000000;
   width: 100%;
@@ -333,4 +337,7 @@ table {
   margin-bottom: 10px;
   margin: 0;
   font-weight: 500;
+}
+#about .about-items .about-item3 .content p {
+  color: #8f8f8f;
 }
