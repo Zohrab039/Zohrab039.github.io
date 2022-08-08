@@ -1,5 +1,5 @@
 #about{
-    background: $nav-bar-bc;
+    background: $about-bc;
     padding: 100px 0px;
     .about-items{
         margin-left: 120px;
@@ -16,7 +16,50 @@
                         letter-spacing: 2px;
                         color: #222;
                         line-height: 1.2;
+                        transition: all .4s ease;
+                        &:hover{
+                            color: $nav-bar-bc;
+                            transition: all .4s ease;
+                        }
                     }
+                }
+            }
+        }
+        .about-item2{
+            width: 380px;
+            height: 632.17px;
+            padding: 0 15px;
+            border: 1px solid white;
+            margin-left: 120px;
+        }
+        .about-item3{
+            .content{
+                padding: 100px 0px;
+                margin-left: 15px;
+                color: #fff;
+                h6{
+                    font-size: 12px;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    letter-spacing: 8px;
+                    margin-bottom: 10px;
+                }
+                h4{
+                    display: inline-block;
+                    font-size: 30px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    letter-spacing: 4px;
+                    color: $nav-bar-color;
+                    background: $nav-bar-hover-color;
+                    padding: 5px 10px;
+                    margin-bottom: 40px;
+                }
+                h5{
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    margin: 0;
+                    font-weight: 500;
                 }
             }
         }

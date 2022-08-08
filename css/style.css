@@ -272,7 +272,7 @@ table {
 }
 
 #about {
-  background: #000000;
+  background: #161617;
   padding: 100px 0px;
 }
 #about .about-items {
@@ -292,4 +292,45 @@ table {
   letter-spacing: 2px;
   color: #222;
   line-height: 1.2;
+  transition: all 0.4s ease;
+}
+#about .about-items .about-item1 .skills .about-title h4:hover {
+  color: #000000;
+  transition: all 0.4s ease;
+}
+#about .about-items .about-item2 {
+  width: 380px;
+  height: 632.17px;
+  padding: 0 15px;
+  border: 1px solid white;
+  margin-left: 120px;
+}
+#about .about-items .about-item3 .content {
+  padding: 100px 0px;
+  margin-left: 15px;
+  color: #fff;
+}
+#about .about-items .about-item3 .content h6 {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  margin-bottom: 10px;
+}
+#about .about-items .about-item3 .content h4 {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #EEEEEE;
+  background: #c49b66;
+  padding: 5px 10px;
+  margin-bottom: 40px;
+}
+#about .about-items .about-item3 .content h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin: 0;
+  font-weight: 500;
 }
