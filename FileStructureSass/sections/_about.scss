@@ -1,6 +1,5 @@
 #about{
     background: $about-bc;
-    padding: 100px 0px;
     .about-items{
         margin-left: 120px;
         .about-item1{
@@ -26,17 +25,22 @@
             }
         }
         .about-item2{
+            margin-left: 120px;
+            max-height: 632.17px;
+            box-sizing: border-box;
+            .img-me{
             width: 380px;
             height: 632.17px;
-            padding: 0 15px;
-            border: 1px solid white;
-            margin-left: 120px;
+            background: url('../image/image_me.jpeg') no-repeat;
+            background-size: cover;
+            background-position: 35%;
+            }
         }
         .about-item3{
             .content{
                 padding: 100px 0px;
                 margin-left: 15px;
-                color: #fff;
+                color: $about-content-color;
                 h6{
                     font-size: 12px;
                     font-weight: 300;

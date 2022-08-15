@@ -150,6 +150,18 @@ table {
   justify-content: space-evenly;
 }
 
+.ai-center {
+  align-items: center;
+}
+
+.ac-center {
+  align-content: center;
+}
+
+.as-center {
+  align-self: center;
+}
+
 .text-center {
   text-align: center;
 }
@@ -277,7 +289,6 @@ table {
 
 #about {
   background: #161617;
-  padding: 100px 0px;
 }
 #about .about-items {
   margin-left: 120px;
@@ -303,11 +314,16 @@ table {
   transition: all 0.4s ease;
 }
 #about .about-items .about-item2 {
+  margin-left: 120px;
+  max-height: 632.17px;
+  box-sizing: border-box;
+}
+#about .about-items .about-item2 .img-me {
   width: 380px;
   height: 632.17px;
-  padding: 0 15px;
-  border: 1px solid white;
-  margin-left: 120px;
+  background: url("../image/image_me.jpeg") no-repeat;
+  background-size: cover;
+  background-position: 35%;
 }
 #about .about-items .about-item3 .content {
   padding: 100px 0px;
