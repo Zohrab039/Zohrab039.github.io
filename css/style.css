@@ -350,10 +350,10 @@ table {
 }
 #about .about-items .about-item3 .content h5 {
   font-size: 18px;
-  margin-bottom: 10px;
-  margin: 0;
   font-weight: 500;
 }
 #about .about-items .about-item3 .content p {
   color: #8f8f8f;
+  line-height: 1.8;
+  font-size: 15px;
 }
