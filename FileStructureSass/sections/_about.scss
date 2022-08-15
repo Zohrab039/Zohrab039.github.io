@@ -68,6 +68,35 @@
                     line-height: 1.8;
                     font-size: 15px;
                 }
+                .social{
+                    .follow{
+                        position: relative;
+                        padding-right: 50px;
+                        color: $nav-bar-hover-color;
+                        font-size: 12px;
+                        &::after{
+                            content: '';
+                            width: 40px;
+                            height: 1px;
+                            background-color: #eee;
+                            position: absolute;
+                            right: 0;
+                            top: 50%;
+                        }
+                    }
+                    a{
+                        cursor: pointer;
+                        color: #fff;
+                        text-decoration: none;
+                        font-size: 12px;
+                        margin: 0 10px;
+                        transition: all .3s ease;
+                        &:hover{
+                            color: $nav-bar-hover-color;
+                            transition: all .3s ease;
+                        }
+                    }
+                }
             }
         }
     }

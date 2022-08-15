@@ -219,6 +219,10 @@ table {
   margin-bottom: 10px;
 }
 
+.mt-40 {
+  margin-top: 40px;
+}
+
 #home {
   background: #000000;
   width: 100%;
@@ -356,4 +360,31 @@ table {
   color: #8f8f8f;
   line-height: 1.8;
   font-size: 15px;
+}
+#about .about-items .about-item3 .content .social .follow {
+  position: relative;
+  padding-right: 50px;
+  color: #c49b66;
+  font-size: 12px;
+}
+#about .about-items .about-item3 .content .social .follow::after {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: #eee;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+#about .about-items .about-item3 .content .social a {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+#about .about-items .about-item3 .content .social a:hover {
+  color: #c49b66;
+  transition: all 0.3s ease;
 }
