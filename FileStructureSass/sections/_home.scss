@@ -37,6 +37,9 @@
                             &:active{
                                 color: $nav-bar-hover-color;
                             }
+                            &:enabled{
+                                color: $nav-bar-hover-color;
+                            }
                         }
                     }
                 }

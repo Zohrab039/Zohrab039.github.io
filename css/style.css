@@ -278,6 +278,9 @@ table {
 #home #nav-bar .nav-bar-items .nav-items ul li a:active {
   color: #c49b66;
 }
+#home #nav-bar .nav-bar-items .nav-items ul li a:enabled {
+  color: #c49b66;
+}
 #home .welcome {
   color: #EEEEEE;
   margin-top: 15%;

@@ -101,8 +101,12 @@
     margin-top: 40px;
 };
 
-// BG-color
+// Special Classes
 
 .bgColor{
     background-color: #222222;
-}
+};
+
+.navColor{
+    color: $nav-bar-hover-color !important;
+};
