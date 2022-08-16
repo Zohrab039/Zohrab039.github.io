@@ -3,6 +3,8 @@
     width: 100%;
     min-height: 110vh;
     #nav-bar{
+        position: sticky;
+        top: 0px;
         .nav-bar-items{
             .logo{
                 font-size: 30px;

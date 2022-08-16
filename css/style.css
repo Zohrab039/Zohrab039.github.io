@@ -227,10 +227,19 @@ table {
   margin-top: 40px;
 }
 
+.bgColor {
+  background-color: #222222;
+}
+
 #home {
   background: #000000;
   width: 100%;
   min-height: 110vh;
+}
+#home #nav-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
 }
 #home #nav-bar .nav-bar-items .logo {
   font-size: 30px;
