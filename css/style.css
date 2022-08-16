@@ -219,6 +219,10 @@ table {
   margin-bottom: 10px;
 }
 
+.mb-30 {
+  margin-bottom: 30px;
+}
+
 .mt-40 {
   margin-top: 40px;
 }
@@ -253,7 +257,8 @@ table {
 }
 #home #nav-bar .nav-bar-items .nav-items ul li a {
   text-decoration: none;
-  padding-left: 30px;
+  margin: 15px 5px;
+  padding: 8px;
   color: #EEEEEE;
   transition: all 0.3s ease;
 }
@@ -317,8 +322,39 @@ table {
   color: #c49b66;
   transition: all 0.4s ease;
 }
+#about .about-items .about-item1 .skills .skill-item h6 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #eee;
+}
+#about .about-items .about-item1 .skills .skill-item .skill-progress {
+  position: relative;
+  height: 8px;
+  width: 350px;
+  background-color: #333333;
+  border-radius: 20px;
+}
+#about .about-items .about-item1 .skills .skill-item .skill-progress .progress {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: #c49b66;
+}
+#about .about-items .about-item1 .skills .skill-item .skill-progress .progress::after {
+  content: attr(data-value);
+  position: absolute;
+  top: -15px;
+  right: 0;
+  font-size: 11px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #eee;
+}
 #about .about-items .about-item2 {
-  margin-left: 139px;
+  margin-left: 30px;
   box-sizing: border-box;
 }
 #about .about-items .about-item2 .img-me {
@@ -386,4 +422,8 @@ table {
 #about .about-items .about-item3 .content .social a:hover {
   color: #c49b66;
   transition: all 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -24,7 +24,8 @@
                         margin: 15px 5px;
                         a{
                             text-decoration: none;
-                            padding-left: 30px;
+                            margin: 15px 5px;
+                            padding: 8px;
                             color: $nav-bar-color;
                             transition: all .3s ease;
                             &:hover{
