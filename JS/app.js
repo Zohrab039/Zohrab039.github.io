@@ -9,14 +9,3 @@ function changeBG(){
 };
 
 window.addEventListener('scroll', changeBG);
-
-function changeNavColor(){
-    let navLink = document.querySelectorAll('.nav-link');
-    for(let i = 0; i < navLink.length; i++){
-        function changeColor(){
-            navLink[i].classList.add('navColor');
-        }
-        navLink[i].addEventListener('click', changeColor);
-    }
-};
-changeNavColor();

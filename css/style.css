@@ -231,6 +231,10 @@ table {
   background-color: #222222;
 }
 
+.navColor {
+  color: #c49b66 !important;
+}
+
 #home {
   background: #000000;
   width: 100%;
@@ -434,6 +438,30 @@ table {
 #about .about-items .about-item3 .content .social a:hover {
   color: #c49b66;
   transition: all 0.3s ease;
+}
+
+#services {
+  padding: 120px 0;
+  background: #0F0F0F;
+}
+#services .services-head {
+  position: relative;
+  margin-bottom: 80px;
+}
+#services .services-head h4 {
+  font-size: 70px;
+  font-weight: 800;
+  font-family: inherit;
+  letter-spacing: 2px;
+  color: #222;
+  transition: all 0.4s;
+}
+#services .services-items .services-item {
+  background: #0a0a0c;
+  text-align: center;
+  margin: 50px 20px;
+  width: 255px;
+  height: 325px;
 }
 
 html {
