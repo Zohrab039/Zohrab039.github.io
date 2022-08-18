@@ -162,10 +162,6 @@ table {
   align-self: center;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .font-Rubik {
   font-family: "Rubik", sans-serif;
 }
@@ -186,33 +182,47 @@ table {
   display: inline-block;
 }
 
-.btn {
-  color: #EEEEEE;
+.full-width {
+  width: 100% !important;
+}
+
+.home-headline {
+  line-height: 1.2;
+}
+
+.butn {
   padding: 12px 34px;
   border-radius: 30px;
-  cursor: pointer;
-  text-decoration: none;
   margin-left: 10px;
   margin-right: 10px;
+  font-size: 14px;
+}
+.butn:hover {
+  text-decoration: none;
 }
 
-.btn-dark {
-  background: transparent;
-  border: 1px solid #eee;
-  transition: all 0.4s ease;
+.butn-dark {
+  border: 1px solid #EEEEEE;
+  color: #EEEEEE;
+  transition: all 0.3s ease;
 }
-.btn-dark:hover {
-  border: 1px solid #c49b66;
+.butn-dark:hover {
+  background: #c49b66;
+  color: #EEEEEE;
+  transition: all 0.3s ease;
 }
 
-.btn-light {
+.butn-light {
   background: #EEEEEE;
   color: #c49b66;
-  overflow: hidden;
   border: 1px solid #EEEEEE;
+  transition: all 0.3s ease;
 }
-.btn-light:hover {
+.butn-light:hover {
+  background: #c49b66;
+  color: #EEEEEE;
   border: 1px solid #EEEEEE;
+  transition: all 0.3s ease;
 }
 
 .mb-10 {
@@ -223,8 +233,16 @@ table {
   margin-bottom: 30px;
 }
 
+.mt-30 {
+  margin-top: 30px;
+}
+
 .mt-40 {
   margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
 }
 
 .bgColor {
@@ -235,232 +253,73 @@ table {
   color: #c49b66 !important;
 }
 
-#home {
+#nav-bar {
   background: #000000;
-  width: 100%;
-  min-height: 110vh;
 }
-#home #nav-bar {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-}
-#home #nav-bar .nav-bar-items .logo {
-  font-size: 30px;
+#nav-bar .container .nav-bar-items .logo {
+  font-size: 20px;
   color: #EEEEEE;
-  margin-top: 25px;
+  padding: 15px 0px;
 }
-#home #nav-bar .nav-bar-items .logo h1::-moz-selection {
+#nav-bar .container .nav-bar-items .logo h1::-moz-selection {
   color: #c49b66;
-  background: #000000;
+  background-color: black;
 }
-#home #nav-bar .nav-bar-items .logo h1::selection {
+#nav-bar .container .nav-bar-items .logo h1::selection {
   color: #c49b66;
-  background: #000000;
+  background-color: black;
 }
-#home #nav-bar .nav-bar-items .nav-items {
-  margin-top: 20px;
-}
-#home #nav-bar .nav-bar-items .nav-items ul {
-  list-style: none;
-}
-#home #nav-bar .nav-bar-items .nav-items ul li {
-  font-size: 13px;
-  margin: 15px 5px;
-}
-#home #nav-bar .nav-bar-items .nav-items ul li a {
-  text-decoration: none;
-  margin: 15px 5px;
+#nav-bar .container .nav-bar-items .nav-items ul li {
+  margin: 25px 0px;
   padding: 8px;
-  color: #EEEEEE;
-  transition: all 0.3s ease;
-}
-#home #nav-bar .nav-bar-items .nav-items ul li a:hover {
-  color: #c49b66;
-  transition: all 0.3s ease;
-}
-#home #nav-bar .nav-bar-items .nav-items ul li a:active {
-  color: #c49b66;
-}
-#home #nav-bar .nav-bar-items .nav-items ul li a:enabled {
-  color: #c49b66;
-}
-#home .welcome {
-  color: #EEEEEE;
-  margin-top: 15%;
-}
-#home .welcome h2 {
-  letter-spacing: 4px;
-  font-size: 70px;
-  font-weight: 300;
-}
-#home .welcome .headline {
-  font-size: 60px;
-  color: #EEEEEE;
-  font-weight: 600;
-  padding-top: 20px;
-}
-#home .welcome .buttons {
-  margin-top: 60px;
-}
-#home .welcome .buttons a {
-  transition: all 0.4s ease;
-}
-#home .welcome .buttons a:hover {
-  color: #EEEEEE;
-  background: #c49b66;
-  transition: all 0.4s ease;
-}
-
-#about {
-  background: #161617;
-}
-#about .about-items {
-  margin-left: 120px;
-}
-#about .about-items .about-item1 .skills {
-  padding: 100px 0px;
-}
-#about .about-items .about-item1 .skills .about-title {
-  margin-bottom: 80px;
-  position: relative;
-}
-#about .about-items .about-item1 .skills .about-title h4 {
-  font-size: 70px;
-  font-weight: 800;
-  font-family: inherit;
-  letter-spacing: 2px;
-  color: #222;
-  line-height: 1.2;
-  transition: all 0.4s ease;
-}
-#about .about-items .about-item1 .skills .about-title h4:hover {
-  color: #c49b66;
-  transition: all 0.4s ease;
-}
-#about .about-items .about-item1 .skills .skill-item h6 {
-  font-size: 14px;
-  font-weight: 400;
-  margin-bottom: 10px;
-  color: #eee;
-}
-#about .about-items .about-item1 .skills .skill-item .skill-progress {
-  position: relative;
-  height: 8px;
-  width: 350px;
-  background-color: #333333;
-  border-radius: 20px;
-}
-#about .about-items .about-item1 .skills .skill-item .skill-progress .progress {
-  position: absolute;
-  width: 90%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border-radius: 20px;
-  background-color: #c49b66;
-}
-#about .about-items .about-item1 .skills .skill-item .skill-progress .progress::after {
-  content: attr(data-value);
-  position: absolute;
-  top: -15px;
-  right: 0;
-  font-size: 11px;
-  font-family: "Josefin Sans", sans-serif;
-  color: #eee;
-}
-#about .about-items .about-item2 {
-  margin-left: 30px;
-  box-sizing: border-box;
-}
-#about .about-items .about-item2 .img-me {
-  width: 380px;
-  height: 633px;
-  background: url("../image/image_me.jpeg") no-repeat;
-  background-size: cover;
-  background-position: 35%;
-}
-#about .about-items .about-item3 .content {
-  padding: 100px 0px;
-  margin-left: 15px;
-  color: #fff;
-}
-#about .about-items .about-item3 .content h6 {
-  font-size: 12px;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 8px;
-  margin-bottom: 10px;
-}
-#about .about-items .about-item3 .content h4 {
-  display: inline-block;
-  font-size: 30px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #EEEEEE;
-  background: #c49b66;
-  padding: 5px 10px;
-  margin-bottom: 40px;
-}
-#about .about-items .about-item3 .content h5 {
-  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.5px;
   font-weight: 500;
 }
-#about .about-items .about-item3 .content p {
-  color: #8f8f8f;
-  line-height: 1.8;
-  font-size: 15px;
-}
-#about .about-items .about-item3 .content .social .follow {
-  position: relative;
-  padding-right: 50px;
-  color: #c49b66;
-  font-size: 12px;
-}
-#about .about-items .about-item3 .content .social .follow::after {
-  content: "";
-  width: 40px;
-  height: 1px;
-  background-color: #eee;
-  position: absolute;
-  right: 0;
-  top: 50%;
-}
-#about .about-items .about-item3 .content .social a {
-  cursor: pointer;
-  color: #fff;
+#nav-bar .container .nav-bar-items .nav-items ul li a {
+  color: #EEEEEE;
   text-decoration: none;
-  font-size: 12px;
-  margin: 0 10px;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
-#about .about-items .about-item3 .content .social a:hover {
+#nav-bar .container .nav-bar-items .nav-items ul li a:hover {
   color: #c49b66;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
+}
+#nav-bar .container .nav-bar-items .nav-items ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #c49b66;
+  transition: width 0.2s;
+  border-radius: 5px;
+}
+#nav-bar .container .nav-bar-items .nav-items ul li a:hover::after {
+  width: 100%;
 }
 
-#services {
-  padding: 120px 0;
-  background: #0F0F0F;
+#home {
+  background: #000000;
+  min-height: 110vh;
 }
-#services .services-head {
-  position: relative;
-  margin-bottom: 80px;
+#home .container .row .greeter {
+  color: #eee;
+  margin-top: 15%;
 }
-#services .services-head h4 {
+#home .container .row .greeter h2 {
   font-size: 70px;
-  font-weight: 800;
-  letter-spacing: 2px;
-  color: #222;
-  transition: all 0.4s;
+  font-weight: 300;
+  letter-spacing: 4px;
 }
-#services .services-items .services-item {
-  background: #0a0a0c;
-  text-align: center;
-  margin: 50px 20px;
-  width: 255px;
-  height: 325px;
+#home .container .row .greeter .headline {
+  margin: 15px 0px;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+#home .container .row .greeter .headline .greet-item {
+  color: #c49b66;
 }
 
 html {

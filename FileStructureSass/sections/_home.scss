@@ -1,77 +1,26 @@
 #home{
     background: $nav-bar-bc;
-    width: 100%;
     min-height: 110vh;
-    #nav-bar{
-        position: sticky;
-        top: 0px;
-        .nav-bar-items{
-            .logo{
-                font-size: 30px;
-                color: $nav-bar-color;
-                margin-top: 25px;
-                h1{
-                    &::selection{
+    .container{
+        .row{
+            .greeter{
+                color: #eee;
+                margin-top: 15%;
+                h2{
+                    font-size: 70px;
+                    font-weight: 300;
+                    letter-spacing: 4px;
+                }
+                .headline{
+                    margin: 15px 0px;
+                    font-size: 60px;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                    .greet-item{
                         color: $nav-bar-hover-color;
-                        background: $nav-bar-bc;
                     }
-                }
-            }
-            .nav-items{
-                margin-top: 20px;
-                ul{
-                    list-style: none;
-                    li{
-                        font-size: 13px;
-                        margin: 15px 5px;
-                        a{
-                            text-decoration: none;
-                            margin: 15px 5px;
-                            padding: 8px;
-                            color: $nav-bar-color;
-                            transition: all .3s ease;
-                            &:hover{
-                                color: $nav-bar-hover-color;
-                                transition: all .3s ease;
-                            }
-                            &:active{
-                                color: $nav-bar-hover-color;
-                            }
-                            &:enabled{
-                                color: $nav-bar-hover-color;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .welcome{
-        color: $nav-bar-color;
-        margin-top: 15%;
-        h2{
-            letter-spacing: 4px;
-            font-size: 70px;
-            font-weight: 300;
-        }
-        .headline{
-            font-size: 60px;
-            color: $nav-bar-color;
-            font-weight: 600;
-            padding-top: 20px;
-        }
-        .buttons{
-            margin-top: 60px;
-            a{
-                transition: all .4s ease;
-                &:hover{
-                    color: $nav-bar-color;
-                    background: $nav-bar-hover-color;
-                    transition: all .4s ease;
                 }
             }
         }
     }
 }
-
-
