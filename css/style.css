@@ -322,6 +322,58 @@ table {
   color: #c49b66;
 }
 
+#about {
+  padding: 100px 0;
+  background: #161617;
+}
+#about .container .row .about-me .skills {
+  padding: 100px 0;
+}
+#about .container .row .about-me .skills .about-head {
+  margin-bottom: 80px;
+}
+#about .container .row .about-me .skills .about-head h4 {
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #222;
+  transition: all 0.4s ease-in-out;
+}
+#about .container .row .about-me .skills .about-head h4:hover {
+  color: #c49b66;
+  transition: all 0.4s ease-in-out;
+}
+#about .container .row .about-me .skills .skill-item h6 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #fff;
+}
+#about .container .row .about-me .skills .skill-item .skill-progress {
+  position: relative;
+  width: 100%;
+  height: 8px;
+  border-radius: 20px;
+  background: rgb(51, 51, 51);
+}
+#about .container .row .about-me .skills .skill-item .skill-progress .progres {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: #c49b66;
+  border-radius: 20px;
+  color: #fff;
+}
+#about .container .row .about-me .skills .skill-item .skill-progress .progres::after {
+  content: attr(data-value);
+  position: absolute;
+  top: -15px;
+  right: 0px;
+  font-size: 10px;
+  font-family: "Rubik", sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
