@@ -1,5 +1,4 @@
 #about{
-    padding: 100px 0;
     background: $about-bc;
     .container{
         .row{
@@ -53,6 +52,10 @@
                         }
                     }
                 }
+            }
+            .img-me{
+                background: url(../image/image_me.jpeg);
+                background-position: 40%;
             }
         }
     }

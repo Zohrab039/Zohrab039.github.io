@@ -323,7 +323,6 @@ table {
 }
 
 #about {
-  padding: 100px 0;
   background: #161617;
 }
 #about .container .row .about-me .skills {
@@ -372,6 +371,10 @@ table {
   right: 0px;
   font-size: 10px;
   font-family: "Rubik", sans-serif;
+}
+#about .container .row .img-me {
+  background: url(../image/image_me.jpeg);
+  background-position: 40%;
 }
 
 html {
