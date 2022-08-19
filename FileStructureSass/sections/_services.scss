@@ -1,0 +1,67 @@
+#services{
+    background: $services-bg;
+    .container{
+        .row{
+            .section-head{
+                margin-bottom: 80px;
+                h4{
+                    font-size: 70px;
+                    font-weight: 800;
+                    letter-spacing: 2px;
+                    color: $services-header-color;
+                    transition: all .3s ease;
+                    &:hover{
+                        color: $nav-bar-hover-color;
+                        transition: all .3s ease;
+                    }
+                }
+            }
+            .item{
+                text-align: center;
+                padding: 50px 20px;
+                background: $services-item-bg;
+                .icon{
+                    position: relative;
+                    display: inline-block;
+                    color: $nav-bar-hover-color;
+                    font-size: 45px;
+                    width: 85px;
+                    height: 85px;
+                    line-height: 85px;
+                    margin-bottom: 30px;
+                    z-index: 5;
+                    transition: all .4s ease-out;
+                    &:hover::after{
+                        border-radius: 30px;
+                        transform: rotate(90deg);
+                        transition: all .4s ease-out;
+                    }
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                        border-radius: 30px;
+                        background: $services-icon-item-bg;
+                        transform: rotate(45deg);
+                        
+                    }
+                }
+                h6{
+                    font-weight: 400;
+                    font-size: 16px;
+                    margin-bottom: 15px;
+                    color: $about-content-color;
+                }
+                p{
+                    font-size: 14px;
+                    color: $p-color;
+                    margin: 0;
+                    line-height: 1.8;
+                }
+            }
+        }
+    }
+}

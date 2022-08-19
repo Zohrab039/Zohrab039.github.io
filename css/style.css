@@ -245,6 +245,10 @@ table {
   margin-top: 50px;
 }
 
+.section-padding {
+  padding: 120px 0;
+}
+
 .bgColor {
   background-color: #222222;
 }
@@ -436,6 +440,69 @@ table {
   transition: all 0.3s ease;
   color: #c49b66;
   text-decoration: none;
+}
+
+#services {
+  background: #0F0F0F;
+}
+#services .container .row .section-head {
+  margin-bottom: 80px;
+}
+#services .container .row .section-head h4 {
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #222;
+  transition: all 0.3s ease;
+}
+#services .container .row .section-head h4:hover {
+  color: #c49b66;
+  transition: all 0.3s ease;
+}
+#services .container .row .item {
+  text-align: center;
+  padding: 50px 20px;
+  background: #0a0a0c;
+}
+#services .container .row .item .icon {
+  position: relative;
+  display: inline-block;
+  color: #c49b66;
+  font-size: 45px;
+  width: 85px;
+  height: 85px;
+  line-height: 85px;
+  margin-bottom: 30px;
+  z-index: 5;
+  transition: all 0.4s ease-out;
+}
+#services .container .row .item .icon:hover::after {
+  border-radius: 30px;
+  transform: rotate(90deg);
+  transition: all 0.4s ease-out;
+}
+#services .container .row .item .icon::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  background: rgba(200, 200, 200, 0.05);
+  transform: rotate(45deg);
+}
+#services .container .row .item h6 {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+#services .container .row .item p {
+  font-size: 14px;
+  color: #8f8f8f;
+  margin: 0;
+  line-height: 1.8;
 }
 
 html {
