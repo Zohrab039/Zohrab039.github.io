@@ -90,7 +90,7 @@
                         color: $p-color;
                         line-height: 1.8;
                     }
-                    .social{
+                    .socials{
                         span{
                             position: relative;
                             padding-right: 50px;
@@ -104,6 +104,17 @@
                                 background-color: #eee;
                                 right: 0px;
                                 top: 50%;
+                            }
+                        }
+                        a{
+                            font-size: 12px;
+                            margin: 0px 10px;
+                            transition: all .3s ease;
+                            color: $about-content-color;
+                            &:hover{
+                                transition: all .3s ease;
+                                color: $nav-bar-hover-color;
+                                text-decoration: none;
                             }
                         }
                     }

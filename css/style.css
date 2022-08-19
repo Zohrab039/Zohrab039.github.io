@@ -411,13 +411,13 @@ table {
   color: #8f8f8f;
   line-height: 1.8;
 }
-#about .container .row .about-me .content .social span {
+#about .container .row .about-me .content .socials span {
   position: relative;
   padding-right: 50px;
   color: #c49b66;
   font-size: 12px;
 }
-#about .container .row .about-me .content .social span::after {
+#about .container .row .about-me .content .socials span::after {
   content: "";
   position: absolute;
   width: 40px;
@@ -425,6 +425,17 @@ table {
   background-color: #eee;
   right: 0px;
   top: 50%;
+}
+#about .container .row .about-me .content .socials a {
+  font-size: 12px;
+  margin: 0px 10px;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+#about .container .row .about-me .content .socials a:hover {
+  transition: all 0.3s ease;
+  color: #c49b66;
+  text-decoration: none;
 }
 
 html {
