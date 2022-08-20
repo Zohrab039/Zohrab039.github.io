@@ -9,6 +9,9 @@
                     font-weight: 800;
                     letter-spacing: 2px;
                     color: $section-head-color;
+                    &:hover{
+                        color: $nav-bar-hover-color;
+                    }
                 }
             }
             .col-lg-4{
@@ -67,6 +70,7 @@
                             a{
                                 text-decoration: none;
                                 color: #fff;
+                                
                             }
                         }
                     }

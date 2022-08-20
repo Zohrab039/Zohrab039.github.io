@@ -605,6 +605,9 @@ table {
   letter-spacing: 2px;
   color: #222;
 }
+#blog .container .row .blog-head h4:hover {
+  color: #c49b66;
+}
 #blog .container .row .col-lg-4 .item {
   position: relative;
   border-radius: 4px;
