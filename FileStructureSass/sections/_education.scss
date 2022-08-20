@@ -6,7 +6,7 @@
             font-size: 70px;
             font-weight: 800;
             letter-spacing: 2px;
-            color: #222;
+            color: $education-head-color;
             transition: all .3s ease;
             &:hover{
                 color: $nav-bar-hover-color;
@@ -21,14 +21,14 @@
                     .education-item-1{
                         position: relative;
                         padding: 20px;
-                        border: 1px solid black;
+                        border: 1px solid $education-item-bg;
                         border-radius: 5px;
-                        background: black;
+                        background: $education-item-bg;
                         .education-item-head{
                             color: $nav-bar-hover-color;
                         }
                         .education-item-date{
-                            color: #eee;
+                            color: $education-date-color;
                             opacity: .9;
                         }
                         .education-item-title{
@@ -40,7 +40,7 @@
                             content: '';
                             position: absolute;
                             border-radius: 50%;
-                            border: 1px solid #eee;
+                            border: 1px solid $education-date-color;
                             width: 14px;
                             height: 14px;
                             z-index: 5;
@@ -52,14 +52,14 @@
                     .education-item-2{
                         position: relative;
                         padding: 20px;
-                        border: 1px solid black;
+                        border: 1px solid $education-item-bg;
                         border-radius: 5px;
-                        background: black;
+                        background: $education-item-bg;
                         .education-item-head{
                             color: $nav-bar-hover-color;
                         }
                         .education-item-date{
-                            color: #eee;
+                            color: $education-date-color;
                             opacity: .9;
                         }
                         .education-item-title{
@@ -74,7 +74,7 @@
                             left: -16px;
                             top: 10px;
                             bottom: 10px;
-                            background-color: #eee;
+                            background-color: $education-date-color;
                         }
                     }
                 }
