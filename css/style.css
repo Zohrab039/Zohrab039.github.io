@@ -388,6 +388,8 @@ table {
 #about .container .row .img-me {
   background: url(../image/image_me.jpeg);
   background-position: 40%;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 #about .container .row .about-me {
   padding: 100px 0;
