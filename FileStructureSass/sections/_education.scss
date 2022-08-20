@@ -1,0 +1,84 @@
+#education{
+    background: $education-bg;
+    .education-head{
+        margin-bottom: 80px;
+        h4{
+            font-size: 70px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            color: #222;
+            transition: all .3s ease;
+            &:hover{
+                color: $nav-bar-hover-color;
+                transition: all .3s ease;
+            }
+        }
+    }
+    .education-content{
+        .container{
+            .row{
+                .col-6{
+                    .education-item-1{
+                        position: relative;
+                        padding: 20px;
+                        border: 1px solid black;
+                        border-radius: 5px;
+                        background: black;
+                        .education-item-head{
+                            color: $nav-bar-hover-color;
+                        }
+                        .education-item-date{
+                            color: #eee;
+                            opacity: .9;
+                        }
+                        .education-item-title{
+                            color: $p-color;
+                            line-height: 1.75em;
+                            font-size: 18px;
+                        }
+                        &::after{
+                            content: '';
+                            position: absolute;
+                            border-radius: 50%;
+                            border: 1px solid #eee;
+                            width: 14px;
+                            height: 14px;
+                            z-index: 5;
+                            right: -24px;
+                            top: 40%;
+                            background: $nav-bar-hover-color;
+                        }
+                    }
+                    .education-item-2{
+                        position: relative;
+                        padding: 20px;
+                        border: 1px solid black;
+                        border-radius: 5px;
+                        background: black;
+                        .education-item-head{
+                            color: $nav-bar-hover-color;
+                        }
+                        .education-item-date{
+                            color: #eee;
+                            opacity: .9;
+                        }
+                        .education-item-title{
+                            color: $p-color;
+                            line-height: 1.75em;
+                            font-size: 18px;
+                        }
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            width: 2px;
+                            left: -16px;
+                            top: 10px;
+                            bottom: 10px;
+                            background-color: #eee;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
