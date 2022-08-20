@@ -389,7 +389,7 @@ table {
   background: url(../image/image_me.jpeg);
   background-position: 40%;
   background-repeat: no-repeat;
-  width: 100%;
+  min-height: 100%;
 }
 #about .container .row .about-me {
   padding: 100px 0;
@@ -591,6 +591,78 @@ table {
   top: 10px;
   bottom: 10px;
   background-color: #eee;
+}
+
+#blog {
+  background: #0F0F0F;
+}
+#blog .container .row .blog-head {
+  margin-bottom: 80px;
+}
+#blog .container .row .blog-head h4 {
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #222;
+}
+#blog .container .row .col-lg-4 .item {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
+}
+#blog .container .row .col-lg-4 .item img {
+  width: 100%;
+  height: auto;
+  filter: blur(2px);
+  transition: all 0.3s ease;
+}
+#blog .container .row .col-lg-4 .item img:hover {
+  filter: blur(0px);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+#blog .container .row .col-lg-4 .item .content {
+  position: absolute;
+  padding: 30px;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+}
+#blog .container .row .col-lg-4 .item .content .data {
+  color: #c49b66;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+#blog .container .row .col-lg-4 .item .content .data .data-item-1 {
+  position: relative;
+  margin-right: 10px;
+  color: #c49b66;
+  font-size: 11px;
+  text-decoration: none;
+}
+#blog .container .row .col-lg-4 .item .content .data .data-item-1::after {
+  content: "/";
+  position: relative;
+  margin-left: 10px;
+}
+#blog .container .row .col-lg-4 .item .content .data .data-item-2 {
+  position: relative;
+  margin-right: 10px;
+  color: #c49b66;
+  font-size: 11px;
+  text-decoration: none;
+}
+#blog .container .row .col-lg-4 .item .content h5 {
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fff;
+  font-size: 25px;
+}
+#blog .container .row .col-lg-4 .item .content h5 a {
+  text-decoration: none;
+  color: #fff;
 }
 
 html {
