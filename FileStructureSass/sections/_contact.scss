@@ -1,0 +1,18 @@
+#contact{
+    .container{
+        .row{
+            .contact-head{
+                margin-bottom: 80px;
+                h4{
+                    font-size: 70px;
+                    font-weight: 800;
+                    letter-spacing: 2px;
+                    color: $section-head-color;
+                    &:hover{
+                        color: $nav-bar-hover-color;
+                    }
+                }
+            }
+        }
+    }
+}

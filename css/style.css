@@ -668,6 +668,19 @@ table {
   color: #fff;
 }
 
+#contact .container .row .contact-head {
+  margin-bottom: 80px;
+}
+#contact .container .row .contact-head h4 {
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #222;
+}
+#contact .container .row .contact-head h4:hover {
+  color: #c49b66;
+}
+
 html {
   scroll-behavior: smooth;
 }
