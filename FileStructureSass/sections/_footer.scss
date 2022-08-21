@@ -9,6 +9,7 @@ footer{
         }
         .socials{
             a{
+                position: relative;
                 color: $nav-bar-hover-color;
                 width: 40px;
                 height: 40px;
@@ -16,6 +17,7 @@ footer{
                 margin: 15px 10px;
                 font-size: 25px;
                 transition: all .3s ease;
+                z-index: 5;
                 &:hover{
                     text-decoration: none;
                     color: #eee;

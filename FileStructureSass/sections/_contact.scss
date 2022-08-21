@@ -53,6 +53,14 @@
                                         width: 100%;
                                         border-radius: 30px;
                                         padding: 15px;
+                                        &:focus{
+                                            outline: none;
+                                            background: $nav-bar-hover-color;
+                                            color: #eee;
+                                        }
+                                        &:focus::placeholder{
+                                            color: #eee;
+                                        }
                                     }
                                 }
                             }
@@ -66,6 +74,14 @@
                                         width: 100%;
                                         border-radius: 30px;
                                         padding: 15px;
+                                        &:focus{
+                                            outline: none;
+                                            background: $nav-bar-hover-color;
+                                            color: #eee;
+                                        }
+                                        &:focus::placeholder{
+                                            color: #eee;
+                                        }
                                     }
                                     textarea{
                                         height: 160px;
@@ -76,11 +92,9 @@
                                         color: #eee;
                                         padding: 15px;
                                         border: 0;
-                                    }
-                                    .butn{
-                                        border-radius: 30px;
-                                        color: #eee;
-                                        background: $nav-bar-hover-color !important;
+                                        &:focus{
+                                            outline: none;
+                                        }
                                     }
                                 }
                             }

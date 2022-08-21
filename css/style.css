@@ -218,6 +218,9 @@ table {
   color: #c49b66;
   transition: all 0.3s ease;
 }
+.submit-butn:active {
+  outline: none;
+}
 
 .butn-dark {
   border: 1px solid #EEEEEE;
@@ -738,6 +741,20 @@ table {
   border-radius: 30px;
   padding: 15px;
 }
+#contact .container .row .col-lg-7 form .container .row .col-md-6 .form-group input:focus {
+  outline: none;
+  background: #c49b66;
+  color: #eee;
+}
+#contact .container .row .col-lg-7 form .container .row .col-md-6 .form-group input:focus::-moz-placeholder {
+  color: #eee;
+}
+#contact .container .row .col-lg-7 form .container .row .col-md-6 .form-group input:focus:-ms-input-placeholder {
+  color: #eee;
+}
+#contact .container .row .col-lg-7 form .container .row .col-md-6 .form-group input:focus::placeholder {
+  color: #eee;
+}
 #contact .container .row .col-lg-7 form .container .row .col-md-12 .form-group {
   margin-bottom: 1rem;
 }
@@ -749,6 +766,20 @@ table {
   border-radius: 30px;
   padding: 15px;
 }
+#contact .container .row .col-lg-7 form .container .row .col-md-12 .form-group input:focus {
+  outline: none;
+  background: #c49b66;
+  color: #eee;
+}
+#contact .container .row .col-lg-7 form .container .row .col-md-12 .form-group input:focus::-moz-placeholder {
+  color: #eee;
+}
+#contact .container .row .col-lg-7 form .container .row .col-md-12 .form-group input:focus:-ms-input-placeholder {
+  color: #eee;
+}
+#contact .container .row .col-lg-7 form .container .row .col-md-12 .form-group input:focus::placeholder {
+  color: #eee;
+}
 #contact .container .row .col-lg-7 form .container .row .col-md-12 .form-group textarea {
   height: 160px;
   max-height: 160px;
@@ -759,10 +790,8 @@ table {
   padding: 15px;
   border: 0;
 }
-#contact .container .row .col-lg-7 form .container .row .col-md-12 .form-group .butn {
-  border-radius: 30px;
-  color: #eee;
-  background: #c49b66 !important;
+#contact .container .row .col-lg-7 form .container .row .col-md-12 .form-group textarea:focus {
+  outline: none;
 }
 
 footer {
@@ -773,6 +802,7 @@ footer .container .logo h1 {
   color: #eee;
 }
 footer .container .socials a {
+  position: relative;
   color: #c49b66;
   width: 40px;
   height: 40px;
@@ -780,6 +810,7 @@ footer .container .socials a {
   margin: 15px 10px;
   font-size: 25px;
   transition: all 0.3s ease;
+  z-index: 5;
 }
 footer .container .socials a:hover {
   text-decoration: none;

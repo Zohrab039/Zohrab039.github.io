@@ -88,6 +88,9 @@
         color: $nav-bar-hover-color;
         transition: all .3s ease;
     }
+    &:active{
+        outline: none;
+    }
 };
 
 .butn-dark{

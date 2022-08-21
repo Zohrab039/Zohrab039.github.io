@@ -1,4 +1,4 @@
-/* function changeBG(){
+function changeBG(){
     let navbar = document.getElementById('nav-bar');
     let scrollValue = window.scrollY;
     if(scrollValue < 100){
@@ -8,4 +8,4 @@
     }
 };
 
-window.addEventListener('scroll', changeBG); */
+window.addEventListener('scroll', changeBG);
