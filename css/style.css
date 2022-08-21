@@ -765,6 +765,35 @@ table {
   background: #c49b66 !important;
 }
 
+footer {
+  padding: 80px 0px;
+  background: #0F0F0F;
+}
+footer .container .logo h1 {
+  color: #eee;
+}
+footer .container .socials a {
+  color: #c49b66;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 15px 10px;
+  font-size: 25px;
+  transition: all 0.3s ease;
+}
+footer .container .socials a:hover {
+  text-decoration: none;
+  color: #eee;
+  transition: all 0.3s ease;
+}
+footer .container .socials p {
+  color: #999;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 html {
   scroll-behavior: smooth;
 }
