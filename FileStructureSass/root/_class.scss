@@ -72,6 +72,24 @@
     }
 };
 
+.submit-butn{
+    float: right;
+    padding: 12px 34px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #eee;
+    background: $nav-bar-hover-color;
+    border: none;
+    transition: all .3s ease;
+    &:hover{
+        background: $nav-bar-color;
+        color: $nav-bar-hover-color;
+        transition: all .3s ease;
+    }
+};
+
 .butn-dark{
     border: 1px solid $nav-bar-color;
     color: $nav-bar-color;
@@ -120,11 +138,16 @@
     margin-top: 50px;
 };
 
+.bg-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 // Paddings
 
 .section-padding{
     padding: 120px 0;
-}
+};
 
 // Special Classes for JavaScript
 
